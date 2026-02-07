@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Life Assessment</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="hero">
+    <h1>Life Assessment</h1>
+    <p>Answer honestly. This is for your clarity.</p>
+  </header>
+
+  <section class="section">
+    <form id="lifeForm">
+
+      <label>Your current status</label>
+      <select id="status" required>
+        <option value="">Select</option>
+        <option value="student">Student</option>
+        <option value="job">Job Seeker</option>
+        <option value="working">Working Professional</option>
+        <option value="break">Taking a Break</option>
+      </select>
+
+      <label>Main challenge</label>
+      <select id="challenge" required>
+        <option value="">Select</option>
+        <option value="career">Career confusion</option>
+        <option value="family">Family pressure</option>
+        <option value="fear">Fear of failure</option>
+        <option value="confidence">Lack of confidence</option>
+      </select>
+
+      <button type="submit" class="btn">Get Clarity</button>
+
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2026 Find The Direction</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
